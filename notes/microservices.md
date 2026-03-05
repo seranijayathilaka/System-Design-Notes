@@ -40,3 +40,22 @@
     <li><strong>CI/CD Pipeline:</strong> Automated build, test, and deployment for independent services.</li>
 </ul>
 
+<h2>Challenges of Microservices</h2>
+<ul>
+    <li><strong>Complexity in Management:</strong> Many services increase operational overhead.</li>
+    <li><strong>Data Consistency:</strong> Decentralized databases require careful design.</li>
+    <li><strong>Inter-Service Communication:</strong> Must handle latency, retries, and failures.</li>
+    <li><strong>Testing Complexity:</strong> Integration testing becomes more challenging.</li>
+    <li><strong>Deployment Overhead:</strong> Multiple CI/CD pipelines and orchestration tools are needed.</li>
+</ul>
+
+<h2>Best Practices for Microservices</h2>
+<ul>
+    <li>Design around business domains (Domain-Driven Design).</li>
+    <li>Keep services small and focused (Single Responsibility Principle).</li>
+    <li>Automate testing, building, and deployment.</li>
+    <li>Implement observability: logging, tracing, and monitoring.</li>
+    <li>Prefer asynchronous communication to reduce tight coupling.</li>
+    <li>Standardize API contracts to ensure smooth integration.</li>
+    <li>Plan for failures: retries, circuit breakers, and graceful degradation.</li>
+</ul>
